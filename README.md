@@ -1,4 +1,4 @@
-# NexusAI
+#NexusAI
 
 O **NexusAI** é um layout base desenvolvido em **React + TypeScript** com **Tailwind CSS** e **Vite**.  
 Ele serve como **template inicial** para futuros projetos que envolvem **integração com inteligência artificial**, oferecendo uma estrutura organizada e moderna de componentes, rotas e estilos.
