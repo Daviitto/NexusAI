@@ -1,69 +1,41 @@
-# React + TypeScript + Vite
+# NexusAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **NexusAI** é um layout base desenvolvido em **React + TypeScript** com **Tailwind CSS** e **Vite**.  
+Ele serve como **template inicial** para futuros projetos que envolvem **integração com inteligência artificial**, oferecendo uma estrutura organizada e moderna de componentes, rotas e estilos.
 
-Currently, two official plugins are available:
+Atualmente, o NexusAI funciona como um **layout genérico** com design responsivo e interativo, pronto para ser expandido.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objetivo
 
-## Expanding the ESLint configuration
+- Criar uma **base sólida de front-end** com boas práticas em React e Tailwind.  
+- Facilitar futuras integrações com APIs de **IA** (ex.: chatbots, dashboards inteligentes).  
+- Servir como ponto de partida para projetos que precisem de um layout moderno.  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 💡 Funcionalidades atuais
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- ⚡ Estrutura com **React 19 + Vite 7**  
+- 🎨 **Tailwind CSS 4** para estilização rápida e responsiva  
+- 🛣️ Navegação com **React Router DOM**  
+- 🔤 Ícones prontos com **React Icons**  
+- ⌨️ Efeito de digitação com **React Type Animation**  
+- 🧩 Estrutura modular de componentes e hooks  
+- 📱 Layout responsivo e limpo  
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🚀 Tecnologias
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- [React 19](https://react.dev/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Vite 7](https://vitejs.dev/)  
+- [Tailwind CSS 4](https://tailwindcss.com/)  
+- [React Router DOM](https://reactrouter.com/)  
+- [React Icons](https://react-icons.github.io/react-icons/)  
+- [React Type Animation](https://www.npmjs.com/package/react-type-animation)  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📦 Instalação
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Clone o repositório e instale as dependências:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+```bash
+git clone https://github.com/seu-usuario/NexusAI.git
+cd NexusAI/Chat-project
+npm install
